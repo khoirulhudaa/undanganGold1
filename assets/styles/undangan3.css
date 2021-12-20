@@ -1687,8 +1687,10 @@ button:focus:not(:focus-visible) {
     }
 
     .footer p {
-        font-size: 21px;
+        font-size: 18px;
         width: 70%;
+        position: relative;
+        top: 12px;
         font-family: 'Montserrat', sans-serif;
     }
 
