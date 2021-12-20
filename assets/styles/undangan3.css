@@ -1174,7 +1174,7 @@ button:focus:not(:focus-visible) {
     }
 
     .open .foto-open {
-        width: 200px;
+        width: 25   0px;
     }
 
     .open .btn-map {
@@ -1185,13 +1185,12 @@ button:focus:not(:focus-visible) {
         width: 250px;
         height: max-content;
         padding: 10px 20px;
-        margin-top: 0px;
+        margin-top: 20px;
         border: 1px solid 
         rgba(245, 176, 203, 1);
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: scale(0.8);
         margin-bottom: 0px;
         border-radius: 12px;
         text-align: center;
@@ -1346,6 +1345,7 @@ button:focus:not(:focus-visible) {
         position: absolute;
         bottom: 190px;
         right: 30px;
+        opacity: 0;
         width: 300px;
     }
 
