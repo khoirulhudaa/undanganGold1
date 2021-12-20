@@ -1166,6 +1166,8 @@ button:focus:not(:focus-visible) {
 
     .open .btn-map {
         transform: scale(0.9);
+        position: relative;
+        margin-top: -7px;
     }
         
     .maaf {
