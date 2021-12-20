@@ -1105,7 +1105,16 @@ button:focus:not(:focus-visible) {
    
     .title2 {
         display: inline;
-        font-family: 'Playfair Display', serif;
+    }
+
+    .title2 small {
+        font-size: 17px;
+    }
+    
+    .title2 h1 {
+        font-family: 'Sacramento', serif;
+        font-size: 34px;
+        margin-top: 10px;
     }
 
     .code-small {
@@ -1204,7 +1213,7 @@ button:focus:not(:focus-visible) {
         left: 40%;
         display: none;
         text-align: center;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Sacramento', cursive;
         color: 
         rgba(93, 83, 74, 1);
     }
