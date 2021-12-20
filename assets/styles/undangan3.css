@@ -1142,10 +1142,10 @@ button:focus:not(:focus-visible) {
         margin-top: 0;
         width: 100vw;
         margin-left: auto;
-        /* display: flex; */
+        display: flex;
         margin-right: auto;
         height: 100vh;
-        display: none;
+        /* display: none; */
         padding-top: 30px;
         z-index:99999;
         top: 50%;
@@ -1346,7 +1346,7 @@ button:focus:not(:focus-visible) {
         position: absolute;
         bottom: 190px;
         right: 30px;
-        width: 500px;
+        width: 300px;
     }
 
     .lavs {
