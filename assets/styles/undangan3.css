@@ -4,6 +4,16 @@ body {
     background-color: rgb(204, 173, 255);
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
 .title2 {
     display: none;
 }
