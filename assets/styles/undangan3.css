@@ -840,12 +840,13 @@ body {
 
 .footer {
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
     background-color: 
     rgba(48, 48, 48, 1);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 40px;
+    padding-top: 35px;
     align-items: center;
     text-align: center;
     color: white;
@@ -855,6 +856,7 @@ body {
 .footer p {
     font-size: 21px;
     width: 70%;
+    top: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1100,8 +1102,139 @@ button:focus:not(:focus-visible) {
     display: flex;
 }
 
+.ucapan {
+    width: 100%;
+}
+
+.ucapan h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(83, 89, 98, 1);
+}
+
+form {
+    margin-bottom: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-comment {
+    width: 80%;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-comment h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.card-comment p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(172, 173, 174, 1);
+}
+
+.menu {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+    position: fixed;
+    bottom: 0;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    height: max-content;
+    padding-top: 20px;
+    z-index: 88888;
+}
+
+.kotak-menu{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak-menu:hover {
+    cursor: pointer;
+}
+
+.kotak-menu:hover img {
+    position: relative;
+    margin-top: -5px;
+    transition: 0.4s;
+    transform: scale(0.86);
+}
+
+.kotak-menu img {
+    margin-top: 0px;
+    width: 40px;
+    transition: 0.4s;
+    z-index: 444444444;
+}
+
+.kotak-menu P {
+    color: rgba(93, 83, 74, 1);
+    font-weight: 500;
+}
+
 
 @media screen and (max-width: 620px) {
+         
+    .menu {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+        0 2px 4px rgba(0,0,0,0.07), 
+        0 4px 8px rgba(0,0,0,0.07), 
+        0 8px 16px rgba(0,0,0,0.07),
+        0 16px 32px rgba(0,0,0,0.07), 
+        0 32px 64px rgba(0,0,0,0.07);
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+        height: max-content;
+        padding-top: 20px;
+        z-index: 88888;
+    }
+
+    .kotak-menu{
+        width: 20%;
+        overflow: hidden;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kotak-menu img {
+        width: 22px;
+    }
+
+    .kotak-menu p {
+        font-size: 11.3px;
+        color: rgb(3, 3, 3);
+    }
    
     .title2 {
         display: inline;
